@@ -1,6 +1,6 @@
 body {
     /* background: #161616; */
-    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("../images/background-login.jpg");
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("../images/background.jpg");
     background-size: cover;
 }
 
@@ -84,6 +84,11 @@ body {
     margin-top: 30px;
 }
 
+
+/*************
+ social network
+ ****************/
+
 .form-social-connexion {
     position: absolute;
     bottom: 30px;
@@ -116,6 +121,7 @@ body {
     width: 32px;
     height: 32px;
     overflow: hidden;
+    opacity: 0.5;
 }
 
 .facebook-icon::before, .gmail-icon::before, .linkedin-icon::before {
