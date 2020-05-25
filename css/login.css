@@ -1,0 +1,106 @@
+body {
+    /* background: #161616; */
+    background: url("../images/background-login.jpg") top left no-repeat;
+    background-size: cover;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**************
+ form box 
+ ***************/
+
+.form-box {
+    display: flex;
+    width: fit-content;
+    height: 450px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-slide, .form-body {
+    width: 380px;
+    padding: 30px 20px;
+    box-sizing: border-box;
+}
+
+/**************
+ form slide
+ ***************/
+
+.form-slide {
+    display: flex;
+    background-color: #931a2e;
+    color: #f5f5f5;
+    text-align: center;
+}
+
+.form-slide-description {
+    align-self: flex-end;
+    width: 100%;
+}
+
+.form-slide h1 {
+
+}
+
+.form-slide h3 {
+
+}
+
+/**************
+ form body
+ ***************/
+
+.form-body {
+    position: relative;
+    background: #f5f5f5;
+    color: #474747;
+    margin-left: 8px;
+}
+
+.form-body form {
+    height: fit-content;
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.form-body input {
+    display: block; 
+    width: 100%;
+}
+
+.form-body input[type="submit"] {
+    margin-top: 30px;
+}
+
+.form-social-connexion {
+    position: absolute;
+    bottom: 30px;
+    text-align: center;
+    width: 87%;
+}
+
+
+.form-social-connexion li {
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+.form-social-connexion a {
+    color: black;
+}
+
+.form-social-connexion a:hover {
+    font-weight: bold;
+}
