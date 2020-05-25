@@ -16,6 +16,7 @@ body {
     display: flex;
     width: fit-content;
     margin: 0 auto 10px auto;
+    color: #474747;
 }
 
 .breadcumb-item:first-child {
@@ -27,13 +28,17 @@ body {
     border-radius: 40px;
 }
 
+.breadcumb-item a {
+    display: block;
+    color: #474747;
+}
+
 .breadcumb-item:hover:not(.breadcumb-active-item) {
     background-color: #e4c5ca;
     color: black;
-    
 }
 
-.breadcumb-active-item {
+.breadcumb-active-item, .breadcumb-active-item a {
     background-color: #931a2e;
     color: #f5f5f5;
 }
