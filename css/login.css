@@ -1,6 +1,6 @@
 body {
     /* background: #161616; */
-    background: url("../images/background-login.jpg") top left no-repeat;
+    background: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url("../images/background-login.jpg");
     background-size: cover;
 }
 
@@ -48,11 +48,11 @@ body {
 }
 
 .form-slide h1 {
-
+    font-family: "lato";
 }
 
 .form-slide h3 {
-
+    font-family: "lato";
 }
 
 /**************
@@ -103,4 +103,39 @@ body {
 
 .form-social-connexion a:hover {
     font-weight: bold;
+}
+
+.form-social-connexion p {
+    margin-bottom: 5px;
+}
+
+/* icons */
+
+.facebook-icon, .gmail-icon, .linkedin-icon {
+    display: block;
+    width: 32px;
+    height: 32px;
+    overflow: hidden;
+}
+
+.facebook-icon::before, .gmail-icon::before, .linkedin-icon::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.facebook-icon::before {
+    background: url("../images/icons/facebook1.png") top left no-repeat;
+    background-size: cover;
+}
+
+.gmail-icon::before {
+    background: url("../images/icons/gmail1.png") top left no-repeat;
+    background-size: cover;
+}
+
+.linkedin-icon::before {
+    background: url("../images/icons/linkedin1.png") top left no-repeat;
+    background-size: cover;
 }
